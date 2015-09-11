@@ -91,6 +91,8 @@
     <Content Include="Views\StaticPages\Home.cshtml" />
     <Content Include="Views\StaticPages\Help.cshtml" />
     <Content Include="Views\StaticPages\About.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
