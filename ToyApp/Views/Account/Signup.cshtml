@@ -1,0 +1,24 @@
+﻿@model ToyApp.Models.SignupViewModel
+@{
+  ViewBag.Title = "Sign up";
+}
+<h1>Sign up</h1>
+
+@using (Html.BeginForm())
+{
+  <label>Name</label>
+  @Html.TextBoxFor(m => m.FullName)
+  <br />  
+  
+  <label>Email</label>
+  @Html.TextBoxFor(m => m.Email)
+  
+  <br />
+
+  <label>Password</label>
+  @Html.PasswordFor(m => m.Password)
+
+  <br />
+   
+  <input type="submit" value="Create my account" class="btn btn-primary" />
+}
