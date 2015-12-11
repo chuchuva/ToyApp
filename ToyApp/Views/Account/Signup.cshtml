@@ -6,6 +6,8 @@
 
 @using (Html.BeginForm())
 {
+  @Html.ValidationSummary("", new { @class = "text-danger" })
+  
   <label>Name</label>
   @Html.TextBoxFor(m => m.FullName)
   <br />  

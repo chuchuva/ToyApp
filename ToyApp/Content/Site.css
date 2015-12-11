@@ -95,3 +95,9 @@ footer ul li {
   float: left;
   margin-left: 15px;
 }
+
+.input-validation-error
+{
+  background-color: #ff0000;
+  color: #fff;
+}
